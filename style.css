@@ -6,7 +6,7 @@
   .inputNumberBox {
     display: flex;
     justify-content: center;
-    align-items: center:
+    align-items: center;
   }
   
   #paragraph {
@@ -14,18 +14,28 @@
     background-color: green;
     color: white;
     padding: 30px;
+    font-family: 'Open Sans', sans-serif;
   }
   
   .header {
-    background-color: lightblue;
-    color: blue;
+    background-color: rgb(64, 125, 175);
+    color: rgb(205, 205, 221);
     padding: 20px;
     text-align: center;
+    font-family: 'Open Sans', sans-serif;
   }
+
+  
   
   .instructions {
     background-color: lightblue;
-    color: blue;
+    color: rgb(72, 72, 177);
     padding: 20px;
     text-align: center;
+    font-family: 'Open Sans', sans-serif;
   }
+
+  .whole {
+      background-color: rgb(24, 87, 92);
+  }
+

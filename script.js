@@ -25,6 +25,8 @@ function userNumber() {
     return user;
 }
 
+document.querySelector("body").style.backgroundColor = "#4b797a";
+
 function compareNumbers() {
     let a = userNumber();
     let b = randomNum();
@@ -33,29 +35,29 @@ function compareNumbers() {
     if (a != b) {
         z.innerHTML = "Numbers are not the same. Computer got " + b + ", and user got "  + a; 
         z.style.color = "white";
-        z.style.backgroundColor = "red";
+        z.style.backgroundColor = "#733b37";
         z.style.padding = "20px";
         z.style.textAlign = "center";
         counter++
         c.innerHTML = "You have tried " + counter + " Times."
         c.style.color = "white";
-        c.style.backgroundColor = "grey";
+        c.style.backgroundColor = "#6a8f9e";
         c.style.padding = "20px";
         c.style.textAlign = "center";
-       document.querySelector("body").style.backgroundColor = "#e38968";
+       document.querySelector("body").style.backgroundColor = "#945656";
     } else if (a == b) {
         z.innerHTML = "Numbers are the same. Computer got " + b + ", and user got " + a;
         z.style.color = "white";
-        z.style.backgroundColor = "green";
+        z.style.backgroundColor = "#3b5920";
         z.style.padding = "20px";
         z.style.textAlign = "center";
         c.innerHTML = "You have tried " + counter + " times to get        it right."
         c.style.color = "white";
-        c.style.backgroundColor = "grey";
+        c.style.backgroundColor = "#6a8f9e";
         c.style.padding = "20px";
         c.style.textAlign = "center";
         counter == 0;
-      document.querySelector("body").style.backgroundColor = "#7bdb81";
+      document.querySelector("body").style.backgroundColor = "#4b797a";
     }
       resetimput();
 }
@@ -63,3 +65,4 @@ function compareNumbers() {
 function resetimput() {
   document.getElementById("getNumber").value = "";
 }
+
