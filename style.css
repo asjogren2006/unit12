@@ -28,8 +28,8 @@
   
   
   .instructions {
-    background-color: lightblue;
-    color: rgb(72, 72, 177);
+    background-color: transparent;
+    color: lightblue;
     padding: 20px;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
